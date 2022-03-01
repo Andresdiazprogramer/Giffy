@@ -1,0 +1,19 @@
+.Gif{
+    border: 1px solid #eee;
+    border: none;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    margin: 20px;
+    flex-direction: column;
+    color: #eee;
+    text-decoration: none;
+}
+
+.Gif img{
+    object-fit: contain;
+}
+.Gif-link{
+    text-decoration: none;
+    color: #eee;
+}
