@@ -1,19 +1,30 @@
-.Gif{
-    border: 1px solid #eee;
-    border: none;
-    display:flex;
-    align-items:center;
-    text-align:center;
-    margin: 20px;
-    flex-direction: column;
-    color: #eee;
+.Gif {
+    margin-bottom: .5em;
+  }
+  
+  .Gif-link {
+    color: #000;
+    display: block;
     text-decoration: none;
-}
-
-.Gif img{
+    position: relative;
+    width: 100%;
+  }
+  
+  .Gif h4 {
+    background: rgba(0, 0, 0, .3);
+    bottom: 0;
+    font-size: 12px;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+  }
+  
+  .Gif img {
+    width: 100%;
     object-fit: contain;
-}
-.Gif-link{
-    text-decoration: none;
-    color: #eee;
-}
+    vertical-align: top;
+  }
+  
+  i {
+    font-size: 80px;
+  }
