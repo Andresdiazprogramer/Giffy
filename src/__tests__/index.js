@@ -12,13 +12,13 @@ test('home work as expected', async () => {
 
 test('should first',async () => { 
     render(<App/>)
-    const input = await screen.findByRole('textboxx')
+    const input = await screen.findByRole('textbox')
     const button = await screen.findByRole('button')
     
-    fireEvent.change(input,{target: {value:'matrix'}})
+    fireEvent.change(input,{target: {value:'Matrix'}})
     fireEvent.click(button)
 
-    const title = await screen.findByText('matrix')
+    const title = await screen.findByText('Matrix')
     expect(title).toBeVisible()
 
  })

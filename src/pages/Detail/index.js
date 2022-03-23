@@ -14,7 +14,7 @@ export default function Detail ({params}) {
         return (
         <>
             <Helmet>
-                <title>cargando</title>
+                <title>Cargando...</title>
             </Helmet>
             <Spinner/>
         </>
